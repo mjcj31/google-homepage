@@ -15,16 +15,83 @@
         {
             display: block;
             margin: 0 auto 0 auto;
-            width: 18%;
+            width: 20%;  
+        }
+        #ip1
+        {
+            border: 1px solid lightgray;
+            border-radius: 25px;
+            padding: 20px; 
+            /*width: 200px;
+            height: 15px;*/
+        }
+        #navbar-right
+        {
+            float: right;
+            background-color: white;
+            justify-content: space-between;
+        }
+        #navbar-right ul{
+            padding-left: 5px;
+            width: 200px;
+        }
+        #navbar-right li
+        {
+            display: inline;
+            text-decoration: none;
+            font-size: 12px;
+            padding-left: 20px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #navbar-left
+        {
+            background-color: white;
+            float: left;
+            justify-content: space-between;
+        }
+        #navbar-left ul{
+            padding-left: 5px;
+            width: 200px;
+        }
+        #navbar-left li
+        {
+            display: inline;
+            text-decoration: none;
+            font-size: 12px;
+            padding-left: 20px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        a
+        {
+            text-decoration: none;
+            color: #404040;
         }
     </style>
     <body>
         <div class="container">
+            <div id="navbar-left">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#store">Store</a></li>
+                    <!--<li><a href="#gmail">Gmail</a></li>
+                    <li><a href="#images">Images</a></li>
+                    <li><a href="#signin">Sign in</a></li>-->
+                </ul>
+            </div>
+            <div id="navbar-right">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#store">Store</a></li>
+                        <!--<li><a href="#gmail">Gmail</a></li>
+                        <li><a href="#images">Images</a></li>
+                        <li><a href="#signin">Sign in</a></li>-->
+                    </ul>
+                </div>
             <div id="logo">
                 <img src="google-logo.png" alt="Google Logo Here">
             </div>
             <div id="text-box">
-                <input type="text" size="50">
+                <input type="text" size="50" id="ip1">
             </div>
         </div>
     </body>
